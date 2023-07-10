@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.container > button{
+    background-color: aqua;
+}
+
+.container > button:hover{
+    /*transform: scale(2.1);*/
+    font-size: 200px;
+    transition: 15s;
+}
